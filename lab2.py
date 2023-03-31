@@ -48,9 +48,6 @@ df = pd.DataFrame(
      'magic': magic_numbers,
      'Extension_matches': extension_matches})
 
-# print the dataframe
-print(df)
-
 Target_hash= "c15e32d27635f248c1c8b66bb012850e5b342119"
 
 # specify the directory path where the files are located

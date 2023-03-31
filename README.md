@@ -6,8 +6,6 @@ U sklopu ove vježbe student će se upoznati sa radom hash funkcija kao i sa hex
 
 Cilj ove vježbe je razumijeti da datoteke imaju jedinstvena zaglavlja na osnovu tipa datoteke. Pokazat ćemo kako datoteke ne trebaju imati ekstenziju za koje se trenutno prikazuju. Veoma bitno je kod računalne forenzike detektirati datateke koje imaju promijenjenu ekstenziju, jer one mogu ukazivati na potencijalno skrivanje informacije.
 
-- Iz direktorija [Download](Download) sačuvajte datoteku Lab2_download_1.zip te je raspakirajte.
-
 - Vaš zadatak je saznati i izlistati sve datoteke koje se nalaze u direktoriju i sačuvati ih u pandas dataframeu. Da biste to napravili pratite upute kako je navedeno:
 
 1. Prvo specificirate putanju direktorija gdje se datoteke nalaze koristeći varijablu `dir_path`. Zatim stvorite praznu listu `file_names` za pohranjivanje naziva datoteka.
@@ -106,4 +104,4 @@ Pretpostavimo da je tvrtka prijavila problem korporativne špijunaže u kojem sm
 
 `c15e32d27635f248c1c8b66bb012850e5b342119`
 
-Također, sa računala osumnjičene osobe ste izuzeli niz dokumenata koji bi mogli ukazivati na potencijalni dokaz. Dokumente u datoteci `Dokaz.zip` možete preuzeti iz direktorija [Download](Download). Raspakirajte dokumente i napravite analizu te navedite o kojem se dokumentu radi.
+## Nema datoteke sa tim hash-om, ali kandidati su Secret file 22 i 52 jer su imali krive ekstenzije.
